@@ -63,7 +63,7 @@ By checking if the image data has already been loaded to the cache, if the image
     
  ## Dynamically Decode data
  
- Parse and create a dictionary that contains all non null value from the data response
+ Parse and dynamically decode all non null value from the data response
  
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: DynamicCodingKeys.self)
