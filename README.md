@@ -97,13 +97,13 @@ By checking if the image data has already been loaded to the cache, if the image
  
  This part utilized UICollectionView and image caching to accomplish showing the list of desserts
  
- ![Example](https://github.com/arnoldlee850807/Fetch_CodingChallenge/blob/main/2023-05-10%2009-39-54.2023-05-10%2009_42_21.gif)
+ ![Example](https://github.com/arnoldlee850807/Fetch_CodingExercise/blob/main/DessertListDemo.gif)
  
  ## Dessert Detail View
  
  This part utilized UITableView to accomplish, the null from the returned data has automatically been filitered
  
- ![Example](https://github.com/arnoldlee850807/Fetch_CodingChallenge/blob/main/2023-05-10%2009-43-50.2023-05-10%2009_48_43.gif)
+ ![Example](https://github.com/arnoldlee850807/Fetch_CodingExercise/blob/main/DessertDetailDemo.gif)
  
  ## Libraries
  
