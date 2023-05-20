@@ -4,9 +4,9 @@
 
 This project is for Fetch's coding challenge. Calling two endpoints
 
-● https://themealdb.com/api/json/v1/1/filter.php?c=Dessert
+https://themealdb.com/api/json/v1/1/filter.php?c=Dessert
 
-● https://themealdb.com/api/json/v1/1/lookup.php?i=MEAL_ID
+https://themealdb.com/api/json/v1/1/lookup.php?i=MEAL_ID
 
 Structure: MVVM
 
