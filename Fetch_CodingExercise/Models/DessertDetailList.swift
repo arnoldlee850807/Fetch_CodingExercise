@@ -49,7 +49,7 @@ struct DessertDetailList: Decodable {
 }
 
 struct IngredientsDetailList: Decodable {
-    var meals: [DecodedDessertData] = []
+    var meals: [DecodedIngredientData] = []
     
     enum CodingKeys: String, CodingKey {
         case meals
@@ -66,9 +66,9 @@ struct IngredientAndMeasure {
     }
 }
 
-struct DecodedDessertData: Decodable {
+struct DecodedIngredientData: Decodable {
     
-    var materialDict = [Int:IngredientAndMeasure]()
+    var ingredientDict = [Int:IngredientAndMeasure]()
     
     private struct DynamicCodingKeys: CodingKey {
         var stringValue: String
@@ -89,10 +89,10 @@ struct DecodedDessertData: Decodable {
                 let decodedObject = try container.decode(String.self, forKey: DynamicCodingKeys(stringValue: key.stringValue)!).trimmingCharacters(in: .whitespacesAndNewlines)
                 let index = Int(key.stringValue.replacingOccurrences(of: "strIngredient", with: "")) ?? 0
                 if decodedObject != "" {
-                    if materialDict.keys.contains(index) {
-                        materialDict[index]!.ingredient = decodedObject
+                    if ingredientDict.keys.contains(index) {
+                        ingredientDict[index]!.ingredient = decodedObject
                     } else {
-                        materialDict[index] = IngredientAndMeasure(ingredient: decodedObject)
+                        ingredientDict[index] = IngredientAndMeasure(ingredient: decodedObject)
                     }
                 }
             }
@@ -100,10 +100,10 @@ struct DecodedDessertData: Decodable {
                 let decodedObject = try container.decode(String.self, forKey: DynamicCodingKeys(stringValue: key.stringValue)!).trimmingCharacters(in: .whitespacesAndNewlines)
                 let index = Int(key.stringValue.replacingOccurrences(of: "strMeasure", with: "")) ?? 0
                 if decodedObject != "" {
-                    if materialDict.keys.contains(index) {
-                        materialDict[index]!.measure = decodedObject
+                    if ingredientDict.keys.contains(index) {
+                        ingredientDict[index]!.measure = decodedObject
                     } else {
-                        materialDict[index] = IngredientAndMeasure(measure: decodedObject)
+                        ingredientDict[index] = IngredientAndMeasure(measure: decodedObject)
                     }
                 }
             }

@@ -17,8 +17,8 @@ class DessertDetailViewModel {
     
     private var ingredientsDetailList = IngredientsDetailList() {
         didSet {
-            guard ingredientsDetailList.meals.first?.materialDict != nil else { return }
-            self.dessertDetailList.value?.meals[0].materialDictionary = ingredientsDetailList.meals.first!.materialDict
+            guard ingredientsDetailList.meals.first?.ingredientDict != nil else { return }
+            self.dessertDetailList.value?.meals[0].materialDictionary = ingredientsDetailList.meals.first!.ingredientDict
         }
     }
     
