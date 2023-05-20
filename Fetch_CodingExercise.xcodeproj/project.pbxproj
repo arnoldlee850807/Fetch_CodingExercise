@@ -14,6 +14,23 @@
 		41070FB32A159C2100BCB0BB /* Fetch_CodingExercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41070FB12A159C2100BCB0BB /* Fetch_CodingExercise.xcdatamodeld */; };
 		41070FB52A159C2300BCB0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41070FB42A159C2300BCB0BB /* Assets.xcassets */; };
 		41070FB82A159C2300BCB0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41070FB62A159C2300BCB0BB /* LaunchScreen.storyboard */; };
+		41070FC02A15AF9300BCB0BB /* Declarative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FBF2A15AF9300BCB0BB /* Declarative.swift */; };
+		41070FC32A15AFC800BCB0BB /* URLSafeConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FC22A15AFC800BCB0BB /* URLSafeConstruct.swift */; };
+		41070FC62A15B00700BCB0BB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FC52A15B00700BCB0BB /* ImageCache.swift */; };
+		41070FC82A15B03500BCB0BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FC72A15B03500BCB0BB /* Extensions.swift */; };
+		41070FCB2A15B05B00BCB0BB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 41070FCA2A15B05B00BCB0BB /* SnapKit */; };
+		41070FCD2A15B2D200BCB0BB /* DessertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FCC2A15B2D200BCB0BB /* DessertListViewController.swift */; };
+		41070FCF2A16904200BCB0BB /* DessertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FCE2A16904200BCB0BB /* DessertList.swift */; };
+		41070FD12A16911A00BCB0BB /* DessertDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FD02A16911A00BCB0BB /* DessertDetailList.swift */; };
+		41070FD42A16983C00BCB0BB /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FD32A16983C00BCB0BB /* DessertListViewModel.swift */; };
+		41070FD72A16987C00BCB0BB /* DessertDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FD62A16987C00BCB0BB /* DessertDetailViewModel.swift */; };
+		41070FD92A169AB500BCB0BB /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FD82A169AB500BCB0BB /* ObservableObject.swift */; };
+		41070FDC2A16A0DF00BCB0BB /* DessertDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FDB2A16A0DF00BCB0BB /* DessertDetailViewController.swift */; };
+		41070FDE2A16D31800BCB0BB /* DessertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FDD2A16D31800BCB0BB /* DessertListCell.swift */; };
+		41070FE02A16E04800BCB0BB /* DessertListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FDF2A16E04800BCB0BB /* DessertListCellViewModel.swift */; };
+		41070FE22A16E22000BCB0BB /* DessertDetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FE12A16E22000BCB0BB /* DessertDetailImageCell.swift */; };
+		41070FE42A16E23100BCB0BB /* DessertDetailTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FE32A16E23100BCB0BB /* DessertDetailTypeCell.swift */; };
+		41070FE72A173CE000BCB0BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070FE62A173CE000BCB0BB /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,22 @@
 		41070FB42A159C2300BCB0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41070FB72A159C2300BCB0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41070FB92A159C2300BCB0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41070FBF2A15AF9300BCB0BB /* Declarative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Declarative.swift; sourceTree = "<group>"; };
+		41070FC22A15AFC800BCB0BB /* URLSafeConstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSafeConstruct.swift; sourceTree = "<group>"; };
+		41070FC52A15B00700BCB0BB /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		41070FC72A15B03500BCB0BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41070FCC2A15B2D200BCB0BB /* DessertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewController.swift; sourceTree = "<group>"; };
+		41070FCE2A16904200BCB0BB /* DessertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertList.swift; sourceTree = "<group>"; };
+		41070FD02A16911A00BCB0BB /* DessertDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailList.swift; sourceTree = "<group>"; };
+		41070FD32A16983C00BCB0BB /* DessertListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewModel.swift; sourceTree = "<group>"; };
+		41070FD62A16987C00BCB0BB /* DessertDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewModel.swift; sourceTree = "<group>"; };
+		41070FD82A169AB500BCB0BB /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		41070FDB2A16A0DF00BCB0BB /* DessertDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewController.swift; sourceTree = "<group>"; };
+		41070FDD2A16D31800BCB0BB /* DessertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListCell.swift; sourceTree = "<group>"; };
+		41070FDF2A16E04800BCB0BB /* DessertListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListCellViewModel.swift; sourceTree = "<group>"; };
+		41070FE12A16E22000BCB0BB /* DessertDetailImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailImageCell.swift; sourceTree = "<group>"; };
+		41070FE32A16E23100BCB0BB /* DessertDetailTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailTypeCell.swift; sourceTree = "<group>"; };
+		41070FE62A173CE000BCB0BB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41070FCB2A15B05B00BCB0BB /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +94,14 @@
 			children = (
 				41070FA82A159C2100BCB0BB /* AppDelegate.swift */,
 				41070FAA2A159C2100BCB0BB /* SceneDelegate.swift */,
+				41070FC52A15B00700BCB0BB /* ImageCache.swift */,
+				41070FC72A15B03500BCB0BB /* Extensions.swift */,
+				41070FD82A169AB500BCB0BB /* ObservableObject.swift */,
+				41070FE52A173C2300BCB0BB /* Networking */,
+				41070FD22A16936900BCB0BB /* Models */,
+				41070FDA2A169C1000BCB0BB /* Views */,
+				41070FD52A16984500BCB0BB /* ViewModels */,
+				41070FC12A15AFA300BCB0BB /* Protocols */,
 				41070FAC2A159C2100BCB0BB /* ViewController.swift */,
 				41070FAE2A159C2100BCB0BB /* Main.storyboard */,
 				41070FB42A159C2300BCB0BB /* Assets.xcassets */,
@@ -68,6 +110,54 @@
 				41070FB12A159C2100BCB0BB /* Fetch_CodingExercise.xcdatamodeld */,
 			);
 			path = Fetch_CodingExercise;
+			sourceTree = "<group>";
+		};
+		41070FC12A15AFA300BCB0BB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				41070FBF2A15AF9300BCB0BB /* Declarative.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		41070FD22A16936900BCB0BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41070FCE2A16904200BCB0BB /* DessertList.swift */,
+				41070FD02A16911A00BCB0BB /* DessertDetailList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41070FD52A16984500BCB0BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41070FD32A16983C00BCB0BB /* DessertListViewModel.swift */,
+				41070FDF2A16E04800BCB0BB /* DessertListCellViewModel.swift */,
+				41070FD62A16987C00BCB0BB /* DessertDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		41070FDA2A169C1000BCB0BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41070FCC2A15B2D200BCB0BB /* DessertListViewController.swift */,
+				41070FDD2A16D31800BCB0BB /* DessertListCell.swift */,
+				41070FDB2A16A0DF00BCB0BB /* DessertDetailViewController.swift */,
+				41070FE12A16E22000BCB0BB /* DessertDetailImageCell.swift */,
+				41070FE32A16E23100BCB0BB /* DessertDetailTypeCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41070FE52A173C2300BCB0BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				41070FC22A15AFC800BCB0BB /* URLSafeConstruct.swift */,
+				41070FE62A173CE000BCB0BB /* NetworkService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +176,9 @@
 			dependencies = (
 			);
 			name = Fetch_CodingExercise;
+			packageProductDependencies = (
+				41070FCA2A15B05B00BCB0BB /* SnapKit */,
+			);
 			productName = Fetch_CodingExercise;
 			productReference = 41070FA52A159C2100BCB0BB /* Fetch_CodingExercise.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 41070F9C2A159C2100BCB0BB;
+			packageReferences = (
+				41070FC92A15B05B00BCB0BB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 41070FA62A159C2100BCB0BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +237,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41070FC32A15AFC800BCB0BB /* URLSafeConstruct.swift in Sources */,
+				41070FC02A15AF9300BCB0BB /* Declarative.swift in Sources */,
+				41070FE42A16E23100BCB0BB /* DessertDetailTypeCell.swift in Sources */,
 				41070FAD2A159C2100BCB0BB /* ViewController.swift in Sources */,
+				41070FC82A15B03500BCB0BB /* Extensions.swift in Sources */,
+				41070FDC2A16A0DF00BCB0BB /* DessertDetailViewController.swift in Sources */,
+				41070FD12A16911A00BCB0BB /* DessertDetailList.swift in Sources */,
+				41070FDE2A16D31800BCB0BB /* DessertListCell.swift in Sources */,
 				41070FA92A159C2100BCB0BB /* AppDelegate.swift in Sources */,
+				41070FD72A16987C00BCB0BB /* DessertDetailViewModel.swift in Sources */,
+				41070FE72A173CE000BCB0BB /* NetworkService.swift in Sources */,
 				41070FB32A159C2100BCB0BB /* Fetch_CodingExercise.xcdatamodeld in Sources */,
+				41070FD42A16983C00BCB0BB /* DessertListViewModel.swift in Sources */,
+				41070FCD2A15B2D200BCB0BB /* DessertListViewController.swift in Sources */,
+				41070FC62A15B00700BCB0BB /* ImageCache.swift in Sources */,
+				41070FD92A169AB500BCB0BB /* ObservableObject.swift in Sources */,
+				41070FE02A16E04800BCB0BB /* DessertListCellViewModel.swift in Sources */,
+				41070FCF2A16904200BCB0BB /* DessertList.swift in Sources */,
 				41070FAB2A159C2100BCB0BB /* SceneDelegate.swift in Sources */,
+				41070FE22A16E22000BCB0BB /* DessertDetailImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41070FC92A15B05B00BCB0BB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41070FCA2A15B05B00BCB0BB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41070FC92A15B05B00BCB0BB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		41070FB12A159C2100BCB0BB /* Fetch_CodingExercise.xcdatamodeld */ = {
