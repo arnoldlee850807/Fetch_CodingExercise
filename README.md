@@ -12,11 +12,11 @@ Structure: MVVM
 
 ## Networking Manager
 
-# Network Service
+### Network Service
 
 Networking logics such as fetch and decode are being held by the network service class. 
 
-# URL Safe Construct
+### URL Safe Construct
 In order to safely construct the URL and to reduce human errors, the urlComponents is implemented here
 
     class URLSafeConstruct: NSObject {
